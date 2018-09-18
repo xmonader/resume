@@ -1,8 +1,7 @@
 generate: 
 	test -d docs || mkdir docs
-	pandoc resume.md -f markdown -t html -s -o docs/resume.html 
-	pandoc resume.md --pdf-engine=xelatex -o docs/resume.pdf
+	pandoc README.md -f markdown -t html -s -o docs/index.html
+	pandoc README.md --pdf-engine=xelatex -o docs/ahmedthabet_resume.pdf
 	
-publish: generate
-	cp docs/resume.html docs/index.html
 
+git commit --date="Monday Sept 18 1:00 2018 +0100"
