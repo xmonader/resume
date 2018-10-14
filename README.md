@@ -51,7 +51,7 @@ I'm a Cloud Software Engineer with 3 years experience, been programming in *Pyth
 - Python, Ruby, Go, PHP, Nim, Typescript, C, Bash, Scheme, Haskell
 - Databases: MySQL, PostgreSQL, MongoDB, Redis
 - APIs: swagger, raml, and GraphQL
-- Frameworks: Web Frameworks/Tools: Flask, Flask-admin, Sanic, Django
+- Web Frameworks: Flask, Flask-admin, Sanic, Django, CodeIgniter
 - Continuous Integration: Docker, travis-CI
 
 # Education/Languages
