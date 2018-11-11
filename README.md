@@ -1,10 +1,10 @@
-<div>
-<span>Ahmed Thabet</span><span style="float:right"><i><font size="2">   <a href="https://github.com/xmonader">github.com/xmonader</a> (+20) 1143344150</font></i></span>
-</div>
+Ahmed Thabet
+============
 
-<hr />
+<i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font> </i>
 
-I'm a Cloud Software Engineer with 3 years experience, been programming in *Python* for +10 years and and I use *Golang* at work.
+> I'm a Cloud Software Engineer with 3 years experience, I've been programming in *Python* for +10 years and and I use Golang at work.
+
 
 # Experience
 
@@ -57,4 +57,4 @@ I'm a Cloud Software Engineer with 3 years experience, been programming in *Pyth
 # Education/Languages
 - BS in Electrical Engineering, Helwan University, Cairo, Egypt
 - English: Business Level (speaking, reading, writing)
-- German: Limited working proficiency (A2)
+- German: Limited working proficiency (B1.1)
