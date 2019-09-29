@@ -22,9 +22,7 @@ Ahmed Thabet
 - *0-Disk*: Developed a network block device (NBD) server with multiple backends for storage. The project was later replaced with 0-db (tarantool, fio, lua)
 - *AYS*: agentless orchestration infrastructure as code and built on top of Jumpscale framework. It’s used to provision virtual machines, deploy containers, services and it handles the orchestration and dependencies for the applications.  Developed the Events system, background task, service templates for owncloud, s3, php, nginx 
 - *OpenVCloud*: cloud platform based on libvirt and Python. Developed new tools for it to improve monitoring and alerting system, and multiple health checks hardware components (e.g IP watcher, dead routeros, fans, power supplies, temperature) 
-- *Jumpscale*: Documentation generators tools for Jumpscale7, and Jumpscale8 
-- *IssueManager*: portal9 application to provide kanban view over github/gogs of GreenITGlobe. I Created Github Synchronizer, Gogs Synchronizer and Deployment scripts
-- More: OAuth provider for _Gogs_, _DMIDecode parser_, _rtinfo_ integration, internal development flow automation project (ays_dev_process)
+- More: OAuth provider for _Gogs_, _DMIDecode parser_, _rtinfo_ integration, internal development flow automation project (ays_dev_process), github-gogs synchronizer, documentation generators for Jumpscale7 and Jumpscale8
 
 # Open Source Projects:
 - [pygundb](https://github.com/xmonader/pygundb) GUN.js database server and client (python, flask, gevent, asyncio)
@@ -33,7 +31,6 @@ Ahmed Thabet
 - [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline) Itsyou.online OAuth2 Middleware for flask 
 - [python-pcre](https://github.com/xmonader/python-pcre) PCRE for python using ctypes
 - [pyparsec](https://github.com/xmonader/pyarsec) Parser combinator library for Python
-- [pyprayertime](https://github.com/xmonader/prayertime) Defacto standard prayertime library for Python
 - [helloED](https://github.com/xmonader/prayertime) Pluggable fast PyGTK text editor
 - [python-sonic-client](https://github.com/xmonader/python-sonic-client) Python client for sonic search backend
 - [nim-redisclient](https://github.com/xmonader/nim-redisclient) Redis parser and client for Nim
