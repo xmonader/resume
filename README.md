@@ -3,7 +3,7 @@ Ahmed Thabet
 
 <i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font> </i>
 
-> I'm a Cloud Software Engineer with 3 years experience, I've been programming in *Python* for +10 years and and I use Golang at work.
+> I'm a Cloud Software Engineer. I've been programming in *Python* for +10 years and and I use Golang at work.
 
 
 # Experience
@@ -26,20 +26,22 @@ Ahmed Thabet
 - *IssueManager*: portal9 application to provide kanban view over github/gogs of GreenITGlobe. I Created Github Synchronizer, Gogs Synchronizer and Deployment scripts
 - More: OAuth provider for _Gogs_, _DMIDecode parser_, _rtinfo_ integration, internal development flow automation project (ays_dev_process)
 
-# Opensource projects:
-- [PyGunDB](https://github.com/xmonader/pygundb) GUN.js server and client (python, asyncio)
-- [raml2spore](https://github.com/xmonader/raml2spore) Generate SPORE client from raml specifications
-- [nim-redisclient](https://github.com/xmonader/nim-redisclient) Redis parser and client for Nim
+# Open Source Projects:
+- [pygundb](https://github.com/xmonader/pygundb) GUN.js database server and client (python, flask, gevent, asyncio)
+- [tcprouter](https://github.com/xmonader/tcprouter) TCP router with SNI routing (go) 
 - [vscode-capnp](https://github.com/xmonader/vscode-capnp) Capnproto plugin for vscode
 - [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline) Itsyou.online OAuth2 Middleware for flask 
 - [python-pcre](https://github.com/xmonader/python-pcre) PCRE for python using ctypes
+- [pyparsec](https://github.com/xmonader/pyarsec) Parser combinator library for Python
 - [pyprayertime](https://github.com/xmonader/prayertime) Defacto standard prayertime library for Python
 - [helloED](https://github.com/xmonader/prayertime) Pluggable fast PyGTK text editor
-- [pyparsec](https://github.com/xmonader/pyarsec) Parser combinator library for Python
+- [python-sonic-client](https://github.com/xmonader/python-sonic-client) Python client for sonic search backend
+- [nim-redisclient](https://github.com/xmonader/nim-redisclient) Redis parser and client for Nim
 - [nim-parsec](https://github.com/xmonader/nim-parsec) Parser combinator library for Nim
 - [nim-configparser](https://github.com/xmonader/nim-parsec) INI Config parser for Nim
 - [nim-bencode](https://github.com/xmonader/nim-bencode) Bencode parser library for Nim
-- Pida contributed RegexToolkit and pastebin plugins. 
+- Pida IDE contributed RegexToolkit and pastebin plugins. 
+- [raml2spore](https://github.com/xmonader/raml2spore) Generate SPORE client from raml specifications
 
 # Publications/Translations:
 - [Nim Days](https://xmonader.github.io/nimdays/): Practical applications/libraries in Nim language
@@ -48,10 +50,11 @@ Ahmed Thabet
 - [Translations](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?do=index) PyQT4, PyGTK, MonoIronPython, Cairo tutorials to Arabic
 
 # Buzzwords
-- Python, Ruby, Go, PHP, Nim, Typescript, C, Bash, Scheme, Haskell
+- Languages: Python, Ruby, Go, PHP, Nim, Typescript, C, Bash, Scheme, Haskell
 - Databases: MySQL, PostgreSQL, MongoDB, Redis
-- APIs: swagger, raml, and GraphQL
+- APIs: swagger, RAML, and GraphQL
 - Web Frameworks: Flask, Flask-admin, Sanic, Django, CodeIgniter
+- Frontend frameworks: Svelte, Sapper, Vue
 - Continuous Integration: Docker, travis-CI
 
 # Education/Languages
