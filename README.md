@@ -8,7 +8,9 @@ Ahmed Thabet
 
 # Experience
 
-- *Codescalers*: Senior Software Engineer (April 2016 - Now)
+- *Codescalers*: Software Development Team Lead (2020 - Now)
+    Leading the development team mainly continuing the development of the Jumpscale cloud framework and the publishing system. 
+- *Codescalers*: Software Engineer (April 2016 - 2020)
     Development of new cloud tools that is used to manage infrastructure, virtual machines and containers.
 -  *Otlob.com*: Data analyst (Freelance) 
     extracting audio fingerprints from huge video datasets for marketing campaign evaluation. 
@@ -18,6 +20,10 @@ Ahmed Thabet
 # Work
 
 ## Codescalers
+
+- [*JS-NG*](https://github.com/threefoldtech/js-ng): lead the development of the next generation automation/configuration framework (python, gevent, docker)
+- [*JS-SDK*](https://github.com/threefoldtech/js-sdk): lead the development of the threefold.io grid [software toolkit](sdk.threefold.io) and the threebot application server. (python, gevent, docker)
+- [*publishingtools*](https://github.com/crystaluniverse/publishingtools): lead the development of web publishing framework for hosting wikis, blogs and websites mainly for [threefold](https://threefold.io) and its grid services. (crystal, kemal, svelte) 
 - [*CRM*](https://github.com/Incubaid/crm/): lead the development of a generic CRM system for threefoldtoken foundation (python, flask, uwsgi, sqlalchemy, flask-admin, postgres, graphql, docker, bash, oauth2)
 - *0-Disk*: Developed a network block device (NBD) server with multiple backends for storage. The project was later replaced with 0-db (tarantool, fio, lua)
 - *AYS*: agentless orchestration infrastructure as code and built on top of Jumpscale framework. It’s used to provision virtual machines, deploy containers, services and it handles the orchestration and dependencies for the applications.  Developed the Events system, background task, service templates for owncloud, s3, php, nginx 
@@ -27,8 +33,9 @@ Ahmed Thabet
 # Open Source Projects:
 - [pygundb](https://github.com/xmonader/pygundb) GUN.js database server and client (python, flask, gevent, asyncio)
 - [tcprouter](https://github.com/xmonader/tcprouter) TCP router with SNI routing (go) 
+- [nim-servy](https://github.com/xmonader/nim-servy) Nim webframework
 - [vscode-capnp](https://github.com/xmonader/vscode-capnp) Capnproto plugin for vscode
-- [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline) Itsyou.online OAuth2 Middleware for flask 
+- [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline) Itsyou.online OAuth2 Middleware for flask
 - [python-pcre](https://github.com/xmonader/python-pcre) PCRE for python using ctypes
 - [pyparsec](https://github.com/xmonader/pyarsec) Parser combinator library for Python
 - [helloED](https://github.com/xmonader/prayertime) Pluggable fast PyGTK text editor
@@ -47,7 +54,7 @@ Ahmed Thabet
 - [Translations](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?do=index) PyQT4, PyGTK, MonoIronPython, Cairo tutorials to Arabic
 
 # Buzzwords
-- Languages: Python, Ruby, Go, PHP, Nim, Typescript, C, Bash, Scheme, Haskell
+- Languages: Python, Ruby, Go, PHP, Nim, Typescript, Crystal, C, Bash, Scheme, Haskell
 - Databases: MySQL, PostgreSQL, MongoDB, Redis
 - APIs: swagger, RAML, and GraphQL
 - Web Frameworks: Flask, Flask-admin, Sanic, Django, CodeIgniter
