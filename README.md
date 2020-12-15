@@ -3,7 +3,7 @@ Ahmed Thabet
 
 <i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font> </i>
 
-> I'm a Cloud Software Engineer. I've been programming in *Python* for +10 years and and I use Golang at work.
+> I'm a Cloud Software Engineer, I've been programming in *Python* for +10 years and and I use Golang and Python to deliver beautiful applications.
 
 
 # Experience
@@ -23,6 +23,8 @@ Ahmed Thabet
 
 - [*JS-NG*](https://github.com/threefoldtech/js-ng): lead the development of the next generation automation/configuration framework (python, gevent, docker)
 - [*JS-SDK*](https://github.com/threefoldtech/js-sdk): lead the development of the threefold.io grid [software toolkit](sdk.threefold.io) and the threebot application server. (python, gevent, docker)
+- [*VDC*](https://github.com/threefoldtech/vdc): lead the development of Virtual Data Center (kubernetes cluster, S3, monitoring prometheus/grafana, management dashboard) on the Threefold grid, giving customers their own virtual data centers, the stack is (python, gevent, stellar blockchain)
+- [*Threefold Marketplace*](https://now.threefold.io): lead the development of Threefold marketplace, based on the js-sdk framework, to have 1-click applications running on the threefold grid 
 - [*publishingtools*](https://github.com/crystaluniverse/publishingtools): lead the development of web publishing framework for hosting wikis, blogs and websites mainly for [threefold](https://threefold.io) and its grid services. (crystal, kemal, svelte) 
 - [*CRM*](https://github.com/Incubaid/crm/): lead the development of a generic CRM system for threefoldtoken foundation (python, flask, uwsgi, sqlalchemy, flask-admin, postgres, graphql, docker, bash, oauth2)
 - *0-Disk*: Developed a network block device (NBD) server with multiple backends for storage. The project was later replaced with 0-db (tarantool, fio, lua)
