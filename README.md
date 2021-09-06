@@ -3,7 +3,7 @@ Ahmed Thabet
 
 <i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font> </i>
 
-> I'm a Cloud Software Engineer, I've been programming in *Python* for +10 years and and I use Golang and Python to deliver beautiful applications.
+> I'm a Cloud Software Engineer, I've been programming in *Python* for +10 years and I use Golang and Python at work to create beautiful applications.
 
 
 # Experience
