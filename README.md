@@ -68,12 +68,12 @@ In Codescalers, I'm leading the development of the [largest P2P cloud](https://t
 
 ## Buzzwords
 
-- Languages: Python, Ruby, Go, Rust, PHP, Nim, Typescript, Crystal, C, Bash, Scheme, Haskell
-- Databases: MySQL, PostgreSQL, MongoDB, Redis
-- APIs: Swagger, RAML, and GraphQL
-- Web Frameworks: Flask, Flask-admin, Sanic, Django, CodeIgniter
-- Frontend frameworks: Svelte, Sapper, Vue
-- Infrastructure: Linux, Docker, Vagrant, Docker-Compose, Kubernetes, K3S, Helm, Terraform, Ansible, Prometheus, Grafana, CoreDNS
+- Languages: Python, Ruby, Go, Rust, Java, PHP, Nim, Typescript, Crystal, C, Bash, Scheme, Haskell, Scala, Ocaml
+- Databases: MySQL, PostgreSQL, MongoDB, Redis, InfluxDB
+- APIs: REST, Swagger, RAML, and GraphQL
+- Web Frameworks: Flask, Flask-admin, Sanic, Django, FastAPI, Bottle, CodeIgniter, Laravel, CakePHP, Yii, Rails, Sinatra
+- Frontend frameworks: Svelte, Sapper, Vue, React
+- Infrastructure: Linux, Vagrant, Docker, Docker-Compose, Docker Swarm, Kubernetes, K3S, Helm, Terraform, Ansible, Prometheus, Grafana, CoreDNS
 
 # Education/Languages
 
