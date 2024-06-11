@@ -3,7 +3,7 @@ Ahmed Thabet
 
 <i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font> </i>
 
-> I've been developing in *Python* for +10 years and I mainly use Golang and Python to build the largest P2P infrastructure in the world.
+> Building the largest decentralized P2P cloud infrastructure in the world for the last 8 years.
 
 ## Experience
 
@@ -12,7 +12,7 @@ Ahmed Thabet
 - *Codescalers*: Software Engineer (April 2016 - 2020)
     Development of new cloud tools that is used to manage infrastructure, virtual machines and containers.
 - *Otlob.com*: Data analyst (Freelance)
-    extracting audio fingerprints from huge video datasets for marketing campaign evaluation.
+    Extracting audio fingerprints from huge video datasets for marketing campaign evaluation.
 - *Orascom Telecom*: Web developer (Freelance)
     PHP/CodeIgniter project to manage their internal servers conditioning information moving away from Excel sheets
 
@@ -20,23 +20,24 @@ Ahmed Thabet
 
 ### Codescalers
 
-In Codescalers, I'm leading the development of the [largest P2P cloud](https://threefold.io) and the tooling around it
+I'm leading the development of the [largest P2P cloud](https://threefold.io) and the tooling around it
 
 - [*JS-NG*](https://github.com/threefoldtech/js-ng): Led the development of the cloud automation/configuration framework (python, gevent, docker)
 - [*JS-SDK*](https://github.com/threefoldtech/js-sdk): Led the development of threefold grid [software toolkit](https://threefold.io) and the threebot application server. (python, gevent, docker)
 - [*VDC*](https://github.com/threefoldtech/vdc): Led the development of Virtual Data Center (kubernetes cluster, S3, monitoring prometheus/grafana, management dashboard) on the Threefold grid, giving customers their own virtual data centers, the stack is (python, gevent, stellar blockchain, kubernetes, ansible, grafana)
 - [*VDC Marketplace*](https://github.com/threefoldtech/vdc): Led the development of Virtual Data Center Marketplace (1-click applications deployments on the virtual data center)
 - [*Threefold Marketplace*](https://now.threefold.io): Led the development of Threefold marketplace, based on the js-sdk framework, to have 1-click applications running on threefold grid
-- [*Terraform Plugin*](https://github.com/threefoldtech/terraform-provider-grid) Led the development of the terraform plugin for threefold grid (golang)
-- [*Javascript client*](https://github.com/threefoldtech/grid3_client_ts):Led the development of the javascript client to enable web developers to integrate with threefold grid, using simple javascript libraries
+- [*Terraform/OpenTofu Plugin*](https://github.com/threefoldtech/terraform-provider-grid) Led the development of the terraform plugin for threefold grid (golang)
+- [*Golang SDK*](https://github.com/threefoldtech/tfgrid-sdk-go)
+- [*Typescript SDK*](https://github.com/threefoldtech/tfgrid-sdk-ts):Led the development of the typescript sdk to enable web developers to integrate with threefold grid, using familiar javascript libraries
 - [*Weblets*](https://github.com/threefoldtech/grid_weblets): Svelte based project to create reusable web components that can be used by anyone to quickly build applications on threefold grid
 - [*Go farmer*](https://github.com/xmonader/gofarmer): GUI application to provide farmers with an easy, cross-platform tool to manage their farms (go, fyne)
 - [*publishingtools*](https://github.com/crystaluniverse/publishingtools): Led the development of web publishing framework for hosting wikis, blogs and websites mainly for [threefold](https://threefold.io) and its grid services. (crystal, kemal, svelte)
 - [*CRM*](https://github.com/Incubaid/crm/): Led the development of a generic CRM system for threefoldtoken foundation (python, flask, uwsgi, sqlalchemy, flask-admin, postgres, graphql, docker, bash, oauth2)
 - *0-Disk*: Developed a network block device (NBD) server with multiple backends for storage. The project was later replaced with 0-db (tarantool, fio, lua)
-- *AYS*: agentless orchestration infrastructure as code and built on top of Jumpscale framework. It’s used to provision virtual machines, deploy containers, services and it handles the orchestration and dependencies for the applications.  Developed the Events system, background task, service templates for owncloud, s3, php, nginx
+- *AYS*: Agentless orchestration infrastructure as code and built on top of Jumpscale framework. It’s used to provision virtual machines, deploy containers, services and it handles the orchestration and dependencies for the applications.  Developed the Events system, background task, service templates for owncloud, s3, php, nginx
 - *OpenVCloud*: cloud platform based on libvirt and Python. Developed new tools for it to improve monitoring and alerting system, and multiple health checks hardware components (e.g IP watcher, dead routeros, fans, power supplies, temperature)
-- More: OAuth provider for _Gogs_, _DMIDecode parser_, _rtinfo_ integration, internal development flow automation project (ays_dev_process), github-gogs synchronizer, documentation generators for Jumpscale7 and Jumpscale8
+- More: OAuth provider for *Gogs*, *DMIDecode parser*, *rtinfo* integration, internal development flow automation project (ays_dev_process), github-gogs synchronizer, documentation generators for Jumpscale7 and Jumpscale8
 
 ## Open Source Projects
 
@@ -68,12 +69,12 @@ In Codescalers, I'm leading the development of the [largest P2P cloud](https://t
 
 ## Buzzwords
 
-- Languages: Python, Ruby, Go, Rust, Java, PHP, Nim, Typescript, Crystal, C, Bash, Scheme, Haskell, Scala, Ocaml
+- Languages: Python, Go, Ruby, Rust, Java, PHP, Nim, Typescript, Crystal, C, Bash, Scheme, Haskell, Scala, Ocaml
 - Databases: MySQL, PostgreSQL, MongoDB, Redis, InfluxDB
-- APIs: REST, Swagger, RAML, and GraphQL
-- Web Frameworks: Flask, Flask-admin, Sanic, Django, FastAPI, Bottle, CodeIgniter, Laravel, CakePHP, Yii, Rails, Sinatra
+- APIs: REST, Swagger, RAML, GraphQL, gRPC, CapnProto
+- Web Frameworks: Flask, Flask-admin, Sanic, Django, FastAPI, Bottle, CodeIgniter, Laravel, CakePHP, Yii, Rails, Sinatra, Gin, Gorilla, Echo
 - Frontend frameworks: Svelte, Sapper, Vue, React
-- Infrastructure: Linux, Vagrant, Docker, Docker-Compose, Docker Swarm, Kubernetes, K3S, Helm, Terraform, Ansible, Prometheus, Grafana, CoreDNS
+- Infrastructure: Linux, Vagrant, Docker, Docker-Compose, Docker Swarm, Kubernetes, K3S, Helm, Terraform, Ansible, Prometheus, Grafana, CoreDNS, Nginx, Caddy, Traefik
 
 # Education/Languages
 
