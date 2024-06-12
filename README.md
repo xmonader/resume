@@ -28,9 +28,12 @@ I'm leading the development of the [largest P2P cloud](https://threefold.io) and
 - [*VDC Marketplace*](https://github.com/threefoldtech/vdc): Led the development of Virtual Data Center Marketplace (1-click applications deployments on the virtual data center)
 - [*Threefold Marketplace*](https://now.threefold.io): Led the development of Threefold marketplace, based on the js-sdk framework, to have 1-click applications running on threefold grid
 - [*Terraform/OpenTofu Plugin*](https://github.com/threefoldtech/terraform-provider-grid) Led the development of the terraform plugin for threefold grid (golang)
-- [*Golang SDK*](https://github.com/threefoldtech/tfgrid-sdk-go)
+- [*Golang SDK*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of the golang sdk, that was crucial to deliver many projects for threefold grid
+- [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of tfrobot, a mass deployer of VM fleets on the threefold grid
+- [*Gridify*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of gridify, allowing to deploy projects on the threefold grid with minimal effort, similar to heroku based projects.
+- [*Farmerbot*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of farmerbot allowing the farmers to efficiently power manage their nodes.
 - [*Typescript SDK*](https://github.com/threefoldtech/tfgrid-sdk-ts):Led the development of the typescript sdk to enable web developers to integrate with threefold grid, using familiar javascript libraries
-- [*Weblets*](https://github.com/threefoldtech/grid_weblets): Svelte based project to create reusable web components that can be used by anyone to quickly build applications on threefold grid
+- [*Weblets*](https://github.com/threefoldtech/grid_weblets): Svelte based project to create reusable web components to quickly build applications on threefold grid
 - [*Go farmer*](https://github.com/xmonader/gofarmer): GUI application to provide farmers with an easy, cross-platform tool to manage their farms (go, fyne)
 - [*publishingtools*](https://github.com/crystaluniverse/publishingtools): Led the development of web publishing framework for hosting wikis, blogs and websites mainly for [threefold](https://threefold.io) and its grid services. (crystal, kemal, svelte)
 - [*CRM*](https://github.com/Incubaid/crm/): Led the development of a generic CRM system for threefoldtoken foundation (python, flask, uwsgi, sqlalchemy, flask-admin, postgres, graphql, docker, bash, oauth2)
