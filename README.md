@@ -1,7 +1,21 @@
+---
+documentclass: article
+classoption:
+  - 10pt
+pagestyle: empty
+geometry:
+  - top=0.7in
+  - bottom=0.7in
+  - left=0.8in
+  - right=0.8in
+mainfont: TeX Gyre Pagella
+---
+
+
 Ahmed Thabet
 ============
 
-<i><font size="2"><a href="https://github.com/xmonader">github.com/xmonader</a> | (+20) 1143344150 | ahmed.te.youssef@gmail.com</font></i>
+*[@xmonader](https://github.com/xmonader) · (+20) 1143344150 · ahmed.te.youssef@gmail.com*
 
 > Building and scaling the world’s largest decentralized P2P cloud infrastructure for over 8 years.
 
@@ -39,14 +53,12 @@ I lead the development of the [largest P2P cloud](https://threefold.io) and the 
 - [*JS-SDK*](https://github.com/threefoldtech/js-sdk): Led the development of the Threefold Grid software toolkit and the Threebot application server (Python, Gevent, Docker)
 - [*VDC*](https://github.com/threefoldtech/vdc): Led the development of the Virtual Data Center platform (Kubernetes clusters, S3, Prometheus/Grafana monitoring, management dashboards) on the Threefold Grid (Python, Gevent, Stellar blockchain, Kubernetes, Ansible, Grafana)
 - [*VDC Marketplace*](https://github.com/threefoldtech/vdc): Led the development of the Virtual Data Center Marketplace, enabling one-click application deployments
-- [*Threefold Marketplace*](https://now.threefold.io): Led the development of the Threefold Marketplace, enabling one-click application deployments on the grid
 - [*Terraform/OpenTofu Plugin*](https://github.com/threefoldtech/terraform-provider-grid): Led the development of the Terraform provider for the Threefold Grid (Go)
 - [*Golang SDK*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of the Go SDK, enabling delivery of multiple grid-based projects
 - [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of a mass-deployment tool for large VM fleets on the Threefold Grid
 - [*Gridify*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of a Heroku-like deployment tool for projects on the Threefold Grid
 - [*Farmerbot*](https://github.com/threefoldtech/tfgrid-sdk-go): Led the development of a power-management and operations tool for grid farmers
 - [*Typescript SDK*](https://github.com/threefoldtech/tfgrid-sdk-ts): Led the development of the TypeScript SDK to enable web developers to integrate with the Threefold Grid
-- [*Weblets*](https://github.com/threefoldtech/grid_weblets): Svelte-based reusable web components for rapid application development on the Threefold Grid
 - [*Go farmer*](https://github.com/xmonader/gofarmer): Cross-platform GUI application for farmers to manage their farms (Go, Fyne)
 - [*publishingtools*](https://github.com/crystaluniverse/publishingtools): Led the development of a web publishing framework for wikis, blogs, and websites, primarily for [Threefold](https://threefold.io) (Crystal, Kemal, Svelte)
 - [*CRM*](https://github.com/Incubaid/crm/): Led the development of a generic CRM system for the Threefold Token Foundation (Python, Flask, SQLAlchemy, GraphQL, PostgreSQL, Docker)
@@ -73,7 +85,6 @@ I lead the development of the [largest P2P cloud](https://threefold.io) and the 
 - [python-sonic-client](https://github.com/xmonader/python-sonic-client): Python client for Sonic search backend
 - [nim-assets](https://github.com/xmonader/nimassets): Bundle assets into a single Nim binary
 - [nim-redisclient](https://github.com/xmonader/nim-redisclient): Redis client and parser for Nim
-- [nim-parsec](https://github.com/xmonader/nim-parsec): Parser combinator library for Nim
 - [raml2spore](https://github.com/xmonader/raml2spore): Generate SPORE clients from RAML specifications
 
 ## Publications / Translations
@@ -96,4 +107,3 @@ I lead the development of the [largest P2P cloud](https://threefold.io) and the 
 
 - BSc in Electrical Engineering, Helwan University, Cairo, Egypt
 - English: Business proficiency (speaking, reading, writing)
-- German: Limited working proficiency (B1.1)

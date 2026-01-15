@@ -1,5 +1,14 @@
-generate: 
+generate:
 	test -d docs || mkdir docs
-	pandoc README.md  -f markdown -t html -s -o docs/index.html --metadata title=" "
-	pandoc README.md --pdf-engine=xelatex -o docs/resume.pdf
-	
+
+	pandoc README.md -f markdown -t html -s \
+		--css=cv.css \
+		--metadata title="Ahmed Thabet – Engineering Manager" \
+		-o docs/index.html
+
+	pandoc README.md \
+	--from=markdown \
+	--pdf-engine=xelatex \
+	-s \
+	--variable=documentclass=article \
+	-o docs/resume.pdf
