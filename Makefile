@@ -1,14 +1,33 @@
-generate:
-	test -d docs || mkdir docs
+PANDOC ?= pandoc
+SRC    := README.md
+OUT    := docs
+TITLE  := Ahmed Thabet — Engineering Manager
 
-	pandoc README.md -f markdown -t html -s \
-		--css=cv.css \
-		--metadata title="Ahmed Thabet – Engineering Manager" \
-		-o docs/index.html
+.PHONY: all html pdf clean
 
-	pandoc README.md \
-	--from=markdown \
-	--pdf-engine=xelatex \
-	-s \
-	--variable=documentclass=article \
-	-o docs/resume.pdf
+all: html pdf
+
+$(OUT):
+	mkdir -p $(OUT)
+
+html: $(OUT)
+	cp resume.css $(OUT)/resume.css
+	$(PANDOC) $(SRC) \
+		--from=markdown \
+		--to=html5 \
+		--standalone \
+		--embed-resources \
+		--css=resume.css \
+		--metadata pagetitle="$(TITLE)" \
+		-o $(OUT)/index.html
+
+pdf: $(OUT)
+	$(PANDOC) $(SRC) \
+		--from=markdown \
+		--to=pdf \
+		--pdf-engine=xelatex \
+		--standalone \
+		-o $(OUT)/AhmedThabet_Resume.pdf
+
+clean:
+	rm -f $(OUT)/index.html $(OUT)/resume.css $(OUT)/AhmedThabet_Resume.pdf

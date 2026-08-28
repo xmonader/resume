@@ -4,111 +4,165 @@ classoption:
   - 10pt
 pagestyle: empty
 geometry:
-  - top=0.7in
-  - bottom=0.7in
-  - left=0.8in
-  - right=0.8in
+  - top=0.6in
+  - bottom=0.6in
+  - left=0.75in
+  - right=0.75in
 mainfont: TeX Gyre Pagella
+colorlinks: true
+linkcolor: Black
+urlcolor: MidnightBlue
+author:
+  - Ahmed Thabet
+subject: Resume
+keywords:
+  - Engineering Manager
+  - Distributed Systems
+  - Go
+  - Kubernetes
 ---
-
 
 Ahmed Thabet
 ============
 
-*[@xmonader](https://github.com/xmonader) · (+20) 1143344150 · ahmed.te.youssef@gmail.com*
+**Engineering Manager — Distributed Cloud Infrastructure & Platform Engineering**
 
-> Engineering Manager with 10+ years building decentralized cloud infrastructure, custom operating systems, and developer platforms — from bare-metal OS design to Kubernetes orchestration at scale.
+[github.com/xmonader](https://github.com/xmonader) · ahmed.te.youssef@gmail.com · (+20) 114 334 4150 · Cairo, Egypt
+
+Engineering leader with 10+ years building decentralized cloud infrastructure, custom
+operating systems, and developer platforms — from bare-metal OS design to Kubernetes
+orchestration at scale. Currently managing multiple teams delivering a peer-to-peer cloud
+that spans thousands of nodes across 60+ countries.
 
 ## Experience
 
-- *Codescalers*: **Engineering Manager** (2023 – Present)
-  Managing multiple engineering teams building the [Threefold Grid](https://threefold.io), a decentralized P2P cloud spanning thousands of nodes across 60+ countries.
-  Own technical strategy, architecture, roadmap, delivery, hiring, and mentoring across the full stack — from a custom Linux-based OS to SDKs, Terraform providers, and web dashboards.
+**Engineering Manager** — Codescalers · 2023 – Present
 
-- *Codescalers*: **Software Development Team Lead** (2020 – 2023)
-  Led development of the Jumpscale cloud framework, the 3Bot virtual system administrator, and the Virtual Data Center platform.
-  Drove system architecture, hands-on development, code quality, and on-time delivery.
+- Manage multiple engineering teams building the [ThreeFold Grid](https://threefold.io), a
+  decentralized P2P cloud spanning thousands of nodes across 60+ countries.
+- Own technical strategy, architecture, roadmap, and delivery across the full stack — a
+  custom Linux-based OS, multi-language SDKs, a Terraform provider, and web dashboards.
+- Run hiring, onboarding, and mentoring; set engineering standards for code review,
+  testing, and release process across teams.
 
-- *Codescalers*: **Software Engineer** (2016 – 2020)
-  Designed and built cloud tooling for VM lifecycle management, container orchestration, and infrastructure automation.
+**Software Development Team Lead** — Codescalers · 2020 – 2023
 
-- *Otlob.com*: **Data Analyst** (Freelance)
-  Built audio fingerprinting pipeline over large-scale video datasets to measure marketing campaign reach.
+- Led development of the Jumpscale cloud automation framework, the 3Bot virtual system
+  administrator, and the Virtual Data Center (VDC) platform.
+- Drove system architecture and hands-on development while owning code quality and
+  on-time delivery for the team.
 
-- *Orascom Telecom*: **Web Developer** (Freelance)
-  Built an internal PHP/CodeIgniter application for server room environmental monitoring, replacing manual Excel workflows.
+**Software Engineer** — Codescalers · 2016 – 2020
 
-## Key Projects
+- Designed and built cloud tooling for VM lifecycle management, container orchestration,
+  and infrastructure automation.
+
+**Earlier (freelance)**
+
+- *Otlob.com* — **Data Analyst**: built an audio-fingerprinting pipeline over large-scale
+  video datasets to measure marketing campaign reach.
+- *Orascom Telecom* — **Web Developer**: built an internal PHP/CodeIgniter application for
+  server-room environmental monitoring, replacing manual Excel workflows.
+
+## Selected Projects
 
 **Operating Systems & Core Infrastructure**
 
-- [*Zero-OS*](https://github.com/threefoldtech/zos): Leading development of the custom Linux-based OS powering the entire Threefold Grid (Go)
-- *ContentHive*: Content-addressed storage system inspired by IPFS (Go)
-- *0-Disk*: Network Block Device server with pluggable storage backends (Tarantool, Lua)
-- *OpenVCloud*: Monitoring, alerting, and hardware health-check tooling for a libvirt-based cloud platform (Python)
+- [*Zero-OS*](https://github.com/threefoldtech/zos) — lead development of the custom
+  Linux-based OS powering the entire ThreeFold Grid (Go).
+- *ContentHive* — content-addressed storage system inspired by IPFS (Go).
+- *0-Disk* — Network Block Device server with pluggable storage backends (Tarantool, Lua).
+- *OpenVCloud* — monitoring, alerting, and hardware health-checks for a libvirt-based
+  cloud platform (Python).
 
 **Platforms & Developer Tools**
 
-- [*KubeCloud*](https://github.com/codescalers/kubecloud): Highly available Kubernetes platform on the Threefold Grid (Go, Vue.js, PostgreSQL)
-- [*VDC*](https://github.com/threefoldtech/vdc): Virtual Data Center — managed Kubernetes clusters, S3 storage, Prometheus/Grafana monitoring (Python, Stellar, Ansible)
-- [*VDC Marketplace*](https://github.com/threefoldtech/vdc): One-click application deployment marketplace on top of VDC
-- *AIBroker*: AI gateway aggregating multiple LLM providers with MCP server integration (Rust, Go)
-- [*Terraform Provider*](https://github.com/threefoldtech/terraform-provider-grid): Infrastructure-as-Code plugin for provisioning on the Threefold Grid (Go)
-- [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): Mass-deployment tool for large VM fleets (Go)
-- [*Gridify*](https://github.com/threefoldtech/tfgrid-sdk-go): Heroku-like deploy tool for the Threefold Grid (Go)
-- [*Farmerbot*](https://github.com/threefoldtech/tfgrid-sdk-go): Power-management and operations automation for grid farmers (Go)
+- [*KubeCloud*](https://github.com/codescalers/kubecloud) — highly available Kubernetes
+  platform on the ThreeFold Grid (Go, Vue.js, PostgreSQL).
+- [*VDC*](https://github.com/threefoldtech/vdc) — Virtual Data Center: managed Kubernetes
+  clusters, S3 storage, Prometheus/Grafana monitoring (Python, Stellar, Ansible), plus a
+  one-click application marketplace on top of it.
+- *AIBroker* — AI gateway aggregating multiple LLM providers with MCP server integration
+  (Rust, Go).
+- [*Terraform Provider*](https://github.com/threefoldtech/terraform-provider-grid) —
+  Infrastructure-as-Code plugin for provisioning on the ThreeFold Grid (Go).
+- [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go) — mass-deployment tool for
+  large VM fleets; [*Gridify*](https://github.com/threefoldtech/tfgrid-sdk-go) — Heroku-like
+  deploy tool; [*Farmerbot*](https://github.com/threefoldtech/tfgrid-sdk-go) —
+  power-management and operations automation for grid farmers (Go).
 
 **SDKs & Frameworks**
 
-- [*Go SDK*](https://github.com/threefoldtech/tfgrid-sdk-go): Primary SDK enabling delivery of multiple grid-based projects (Go)
-- [*TypeScript SDK*](https://github.com/threefoldtech/tfgrid-sdk-ts): Web developer SDK for Threefold Grid integration (TypeScript)
-- [*JS-NG*](https://github.com/threefoldtech/js-ng) / [*JS-SDK*](https://github.com/threefoldtech/js-sdk): Cloud automation framework and Threebot application server (Python, Gevent)
-- [*EWF*](https://github.com/xmonader/ewf): Embeddable workflow framework for resilient, stateful multi-step processes (Go)
-- [*CRM*](https://github.com/Incubaid/crm/): CRM system for Threefold Token Foundation (Python, Flask, GraphQL, PostgreSQL)
-- [*publishingtools*](https://github.com/crystaluniverse/publishingtools): Web publishing framework for wikis, blogs, and websites (Crystal, Kemal, Svelte)
+- [*Go SDK*](https://github.com/threefoldtech/tfgrid-sdk-go) — primary SDK enabling
+  delivery of multiple grid-based projects (Go).
+- [*TypeScript SDK*](https://github.com/threefoldtech/tfgrid-sdk-ts) — web developer SDK
+  for ThreeFold Grid integration (TypeScript).
+- [*JS-NG*](https://github.com/threefoldtech/js-ng) /
+  [*JS-SDK*](https://github.com/threefoldtech/js-sdk) — cloud automation framework and
+  Threebot application server (Python, Gevent).
+- [*EWF*](https://github.com/xmonader/ewf) — embeddable workflow framework for resilient,
+  stateful multi-step processes (Go).
+- [*CRM*](https://github.com/Incubaid/crm/) — CRM system for the ThreeFold Token
+  Foundation (Python, Flask, GraphQL, PostgreSQL).
+- [*publishingtools*](https://github.com/crystaluniverse/publishingtools) — web publishing
+  framework for wikis, blogs, and websites (Crystal, Kemal, Svelte).
+- *AYS* — agentless Infrastructure-as-Code orchestration: event system, background tasks,
+  and service templates.
+- [*Go farmer*](https://github.com/xmonader/gofarmer) — cross-platform GUI for farm
+  management (Go, Fyne). Also: OAuth provider for Gogs, DMIDecode parser, GitHub–Gogs
+  sync, and documentation generators for Jumpscale.
 
-**Infrastructure Tooling**
+## Open Source
 
-- *AYS*: Agentless Infrastructure-as-Code orchestration — event systems, background tasks, and service templates
-- [*Go farmer*](https://github.com/xmonader/gofarmer): Cross-platform GUI for farm management (Go, Fyne)
-- Additional: OAuth provider for Gogs, DMIDecode parser, GitHub–Gogs sync, documentation generators for Jumpscale
+- **Networking & infrastructure** — [tcprouter](https://github.com/xmonader/tcprouter): TCP
+  router with SNI-based routing (Go) ·
+  [tfgateway](https://github.com/threefoldtech/tfgateway): ThreeFold gateway built on
+  tcprouter and the CoreDNS Redis plugin ·
+  [coredns-redis](https://github.com/threefoldtech/coredns-redis): Redis plugin for CoreDNS ·
+  [raqeeb](https://github.com/xmonader/raqeeb): PID 1 replacement and advanced alternative
+  to Foreman.
+- **Python libraries** — [pygundb](https://github.com/xmonader/pygundb): GUN.js database
+  server and client · [pyparsec](https://github.com/xmonader/pyarsec): parser combinator
+  library · [python-sonic-client](https://github.com/xmonader/python-sonic-client): client
+  for the Sonic search backend · [python-pcre](https://github.com/xmonader/python-pcre):
+  PCRE bindings via ctypes ·
+  [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline): OAuth2 middleware
+  for Flask.
+- **Nim ecosystem** — [nim-servy](https://github.com/xmonader/nim-servy): web framework ·
+  [nim-redisclient](https://github.com/xmonader/nim-redisclient): Redis client and parser ·
+  [nim-assets](https://github.com/xmonader/nimassets): bundle assets into a single Nim
+  binary.
+- **Tools & applications** — [vscode-capnp](https://github.com/xmonader/vscode-capnp):
+  Cap'n Proto extension for VS Code · [helloED](https://github.com/xmonader/helloed):
+  pluggable, fast PyGTK text editor ·
+  [stellargui](https://github.com/xmonader/stellargui): lightweight Stellar blockchain
+  wallet · [raml2spore](https://github.com/xmonader/raml2spore): generate SPORE clients
+  from RAML specifications · [Pida IDE](https://en.wikipedia.org/wiki/PIDA): contributed
+  the RegexToolkit and Pastebin plugins.
 
-## Open Source Projects
+## Publications & Translations
 
-- [tcprouter](https://github.com/xmonader/tcprouter): TCP router with SNI-based routing (Go)
-- [tfgateway](https://github.com/threefoldtech/tfgateway): Threefold gateway built on tcprouter and CoreDNS Redis plugin
-- [coredns-redis](https://github.com/threefoldtech/coredns-redis): Redis plugin for CoreDNS
-- [raqeeb](https://github.com/xmonader/raqeeb): PID 1 replacement and advanced alternative to Foreman
-- [pygundb](https://github.com/xmonader/pygundb): GUN.js database server and client (Python)
-- [pyparsec](https://github.com/xmonader/pyarsec): Parser combinator library for Python
-- [python-sonic-client](https://github.com/xmonader/python-sonic-client): Python client for Sonic search backend
-- [python-pcre](https://github.com/xmonader/python-pcre): PCRE bindings for Python using ctypes
-- [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline): OAuth2 middleware for Flask
-- [nim-servy](https://github.com/xmonader/nim-servy): Web framework for Nim
-- [nim-redisclient](https://github.com/xmonader/nim-redisclient): Redis client and parser for Nim
-- [nim-assets](https://github.com/xmonader/nimassets): Bundle assets into a single Nim binary
-- [vscode-capnp](https://github.com/xmonader/vscode-capnp): Cap'n Proto extension for VS Code
-- [helloED](https://github.com/xmonader/helloed): Pluggable, fast PyGTK text editor
-- [stellargui](https://github.com/xmonader/stellargui): Lightweight Stellar blockchain wallet
-- [Pida IDE](https://en.wikipedia.org/wiki/PIDA): Contributed RegexToolkit and Pastebin plugins
-- [raml2spore](https://github.com/xmonader/raml2spore): Generate SPORE clients from RAML specifications
+- [*Nim Days*](https://xmonader.github.io/nimdays/) — book on practical applications and
+  libraries in Nim.
+- [*Python: Extensive Guide*](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=pythonguide:pythonguide)
+  — Arabic programming guide.
+- [*Introduction to Ruby*](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=intro_ruby:intro_ruby)
+  — Arabic programming guide.
+- [*Translations*](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?do=index) — PyQt4,
+  PyGTK, Mono IronPython, and Cairo tutorials translated into Arabic.
 
-## Publications / Translations
+## Skills
 
-- [Nim Days](https://xmonader.github.io/nimdays/): Practical applications and libraries in Nim
-- [Python: Extensive Guide](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=pythonguide:pythonguide)
-- [Introduction to Ruby](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=intro_ruby:intro_ruby)
-- [Translations](http://tuxcoders.sourceforge.net/dokuwiki/doku.php?do=index): PyQt4, PyGTK, Mono IronPython, and Cairo tutorials translated into Arabic
+- **Leadership** — team management, hiring, mentoring, technical strategy, roadmap and
+  delivery ownership, architecture review.
+- **Languages** — Go, Python, Rust, TypeScript, C, Nim, Crystal, Bash.
+- **Infrastructure** — Linux, Kubernetes, K3s, Helm, Terraform/OpenTofu, Ansible, Docker,
+  Prometheus, Grafana, CoreDNS, Nginx, Traefik.
+- **Data** — PostgreSQL, Redis, MySQL, MongoDB, InfluxDB.
+- **APIs & protocols** — REST, GraphQL, gRPC, Cap'n Proto.
+- **Frontend** — Vue, Svelte, React.
 
-## Skills & Technologies
+## Education & Languages
 
-- **Languages**: Go, Python, Rust, TypeScript, C, Nim, Crystal, Bash
-- **Databases**: PostgreSQL, Redis, MySQL, MongoDB, InfluxDB
-- **Infrastructure**: Linux, Kubernetes, K3s, Helm, Terraform/OpenTofu, Ansible, Docker, Prometheus, Grafana, CoreDNS, Nginx, Traefik
-- **APIs & Protocols**: REST, GraphQL, gRPC, Cap'n Proto
-- **Frontend**: Vue, Svelte, React
-
-## Education
-
-- BSc in Electrical Engineering, Helwan University, Cairo, Egypt
-- English: Business proficiency
+- **BSc in Electrical Engineering** — Helwan University, Cairo, Egypt.
+- **Languages** — Arabic (native), English (business proficiency).
