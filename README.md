@@ -36,7 +36,7 @@ Ahmed Thabet
 
 **Engineering Manager - Distributed Cloud Infrastructure & Platform Engineering**
 
-[github.com/xmonader](https://github.com/xmonader) | ahmed.te.youssef@gmail.com | (+20) 114 334 4150 | Cairo, Egypt
+[github.com/xmonader](https://github.com/xmonader) - ahmed.te.youssef@gmail.com - (+20) 114 334 4150 - Cairo, Egypt
 
 ```{=html}
 <p class="pdf-link"><a href="AhmedThabet_Resume.pdf">Download as PDF</a></p>
@@ -140,28 +140,28 @@ nodes across 60+ countries.
 - [tcprouter](https://github.com/xmonader/tcprouter): TCP router with SNI-based routing (Go).
 - [tfgateway](https://github.com/threefoldtech/tfgateway): ThreeFold gateway built on tcprouter and the
   CoreDNS Redis plugin.
-- [coredns-redis](https://github.com/threefoldtech/coredns-redis): Redis plugin for CoreDNS |
+- [coredns-redis](https://github.com/threefoldtech/coredns-redis): Redis plugin for CoreDNS;
   [raqeeb](https://github.com/xmonader/raqeeb): PID 1 replacement and alternative to Foreman.
 
 **Python Libraries**
 
 - [pygundb](https://github.com/xmonader/pygundb): GUN.js database server and client.
 - [python-sonic-client](https://github.com/xmonader/python-sonic-client): client for the Sonic search backend.
-- [pyparsec](https://github.com/xmonader/pyarsec): parser combinator library |
-  [python-pcre](https://github.com/xmonader/python-pcre): PCRE bindings via ctypes |
+- [pyparsec](https://github.com/xmonader/pyarsec): parser combinator library;
+  [python-pcre](https://github.com/xmonader/python-pcre): PCRE bindings via ctypes;
   [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline): OAuth2 middleware for Flask.
 
 **Nim Ecosystem**
 
-- [nim-servy](https://github.com/xmonader/nim-servy): web framework | [nim-redisclient](https://github.com/xmonader/nim-redisclient):
-  Redis client and parser | [nim-assets](https://github.com/xmonader/nimassets): bundle assets into a
+- [nim-servy](https://github.com/xmonader/nim-servy): web framework; [nim-redisclient](https://github.com/xmonader/nim-redisclient):
+  Redis client and parser; [nim-assets](https://github.com/xmonader/nimassets): bundle assets into a
   single binary.
 
 **Tools & Applications**
 
-- [vscode-capnp](https://github.com/xmonader/vscode-capnp): Cap'n Proto extension for VS Code |
+- [vscode-capnp](https://github.com/xmonader/vscode-capnp): Cap'n Proto extension for VS Code;
   [helloED](https://github.com/xmonader/helloed): pluggable, fast PyGTK text editor.
-- [stellargui](https://github.com/xmonader/stellargui): lightweight Stellar wallet |
+- [stellargui](https://github.com/xmonader/stellargui): lightweight Stellar wallet;
   [raml2spore](https://github.com/xmonader/raml2spore): generate SPORE clients from RAML specs.
 - [Pida IDE](https://en.wikipedia.org/wiki/PIDA): contributed the RegexToolkit and
   Pastebin plugins.
