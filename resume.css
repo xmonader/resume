@@ -44,7 +44,7 @@ h2 {
 p { margin: 10px 0 4px; }
 p strong:first-child { color: #000; }
 
-ul { margin: 4px 0 10px; padding-left: 20px; }
+ul { margin: 4px 0 10px; padding-left: 20px; list-style-type: '- '; }
 li { margin-bottom: 3px; }
 
 a { color: #0b5394; text-decoration: none; }

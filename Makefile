@@ -12,7 +12,7 @@ $(OUT):
 
 html: $(OUT)
 	$(PANDOC) $(SRC) \
-		--from=markdown \
+		--from=markdown-smart \
 		--to=html5 \
 		--standalone \
 		--embed-resources \
@@ -22,7 +22,7 @@ html: $(OUT)
 
 pdf: $(OUT)
 	$(PANDOC) $(SRC) \
-		--from=markdown \
+		--from=markdown-smart \
 		--to=pdf \
 		--pdf-engine=xelatex \
 		--standalone \
