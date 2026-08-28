@@ -35,8 +35,9 @@ Ahmed Thabet
 
 Engineering leader with 10+ years building decentralized cloud infrastructure, custom
 operating systems, and developer platforms — from bare-metal OS design to Kubernetes
-orchestration at scale. Currently managing multiple teams delivering a peer-to-peer cloud
-that spans thousands of nodes across 60+ countries.
+orchestration at scale. 6+ of those years leading engineering teams, 3+ as an engineering
+manager, currently running multiple teams on a peer-to-peer cloud spanning thousands of
+nodes across 60+ countries.
 
 ## Experience
 
