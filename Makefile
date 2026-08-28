@@ -11,7 +11,6 @@ $(OUT):
 	mkdir -p $(OUT)
 
 html: $(OUT)
-	cp resume.css $(OUT)/resume.css
 	$(PANDOC) $(SRC) \
 		--from=markdown \
 		--to=html5 \
@@ -30,4 +29,4 @@ pdf: $(OUT)
 		-o $(OUT)/AhmedThabet_Resume.pdf
 
 clean:
-	rm -f $(OUT)/index.html $(OUT)/resume.css $(OUT)/AhmedThabet_Resume.pdf
+	rm -f $(OUT)/index.html $(OUT)/AhmedThabet_Resume.pdf

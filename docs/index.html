@@ -43,6 +43,14 @@ letter-spacing: -0.01em;
 
 h1 + p { margin: 0 0 2px; font-size: 15px; }
 h1 + p + p { margin: 0 0 16px; font-size: 13.5px; color: #444; }
+.pdf-link { margin: 0 0 18px; font-size: 13px; }
+.pdf-link a {
+display: inline-block;
+padding: 3px 10px;
+border: 1px solid #0b5394;
+border-radius: 3px;
+}
+.pdf-link a:hover { background: #0b5394; color: #fff; text-decoration: none; }
 h2 {
 font-size: 13px;
 text-transform: uppercase;
@@ -62,6 +70,15 @@ a:hover { text-decoration: underline; }
 code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
 @media print {
 body { margin: 0; padding: 0; max-width: none; font-size: 10.5pt; }
+.pdf-link { display: none; }
+.pdf-link { margin: 0 0 18px; font-size: 13px; }
+.pdf-link a {
+display: inline-block;
+padding: 3px 10px;
+border: 1px solid #0b5394;
+border-radius: 3px;
+}
+.pdf-link a:hover { background: #0b5394; color: #fff; text-decoration: none; }
 h2 { margin-top: 16px; }
 a { color: #000; text-decoration: none; }
 }
@@ -78,6 +95,7 @@ h1 { font-size: 24px; }
 Platform Engineering</strong></p>
 <p><a href="https://github.com/xmonader">github.com/xmonader</a> ·
 ahmed.te.youssef@gmail.com · (+20) 114 334 4150 · Cairo, Egypt</p>
+<p class="pdf-link"><a href="AhmedThabet_Resume.pdf">Download as PDF</a></p>
 <p>Engineering leader with 10+ years building decentralized cloud
 infrastructure, custom operating systems, and developer platforms — from
 bare-metal OS design to Kubernetes orchestration at scale. 6+ of those

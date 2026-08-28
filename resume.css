@@ -21,6 +21,15 @@ h1 {
 h1 + p { margin: 0 0 2px; font-size: 15px; }
 h1 + p + p { margin: 0 0 16px; font-size: 13.5px; color: #444; }
 
+.pdf-link { margin: 0 0 18px; font-size: 13px; }
+.pdf-link a {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px solid #0b5394;
+  border-radius: 3px;
+}
+.pdf-link a:hover { background: #0b5394; color: #fff; text-decoration: none; }
+
 h2 {
   font-size: 13px;
   text-transform: uppercase;
@@ -45,7 +54,17 @@ code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; font-size: 0.9
 
 @media print {
   body { margin: 0; padding: 0; max-width: none; font-size: 10.5pt; }
-  h2 { margin-top: 16px; }
+  .pdf-link { display: none; }
+  .pdf-link { margin: 0 0 18px; font-size: 13px; }
+.pdf-link a {
+  display: inline-block;
+  padding: 3px 10px;
+  border: 1px solid #0b5394;
+  border-radius: 3px;
+}
+.pdf-link a:hover { background: #0b5394; color: #fff; text-decoration: none; }
+
+h2 { margin-top: 16px; }
   a { color: #000; text-decoration: none; }
 }
 

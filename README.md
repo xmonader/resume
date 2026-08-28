@@ -33,6 +33,10 @@ Ahmed Thabet
 
 [github.com/xmonader](https://github.com/xmonader) · ahmed.te.youssef@gmail.com · (+20) 114 334 4150 · Cairo, Egypt
 
+```{=html}
+<p class="pdf-link"><a href="AhmedThabet_Resume.pdf">Download as PDF</a></p>
+```
+
 Engineering leader with 10+ years building decentralized cloud infrastructure, custom
 operating systems, and developer platforms — from bare-metal OS design to Kubernetes
 orchestration at scale. 6+ of those years leading engineering teams, 3+ as an engineering
