@@ -168,7 +168,8 @@ nodes across 60+ countries.
 - **APIs & protocols** — REST, GraphQL, gRPC, Cap'n Proto.
 - **Frontend** — Vue, Svelte, React.
 
-## Education & Languages
+## Education
 
-- **BSc in Electrical Engineering** — Helwan University, Cairo, Egypt.
-- **Languages** — Arabic (native), English (business proficiency).
+- **BSc in Electrical Engineering**, Helwan University, Cairo, Egypt, 2014.
+- **Mandatory military service**, Egyptian Armed Forces, 2015 - 2016.
+- **Languages**: Arabic (native), English (business proficiency).
