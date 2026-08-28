@@ -9,6 +9,10 @@ geometry:
   - left=0.75in
   - right=0.75in
 mainfont: TeX Gyre Pagella
+header-includes: |
+  \hyphenpenalty=10000
+  \exhyphenpenalty=10000
+  \sloppy
 colorlinks: true
 linkcolor: Black
 urlcolor: MidnightBlue
@@ -36,7 +40,7 @@ that spans thousands of nodes across 60+ countries.
 
 ## Experience
 
-**Engineering Manager** — Codescalers · 2023 – Present
+**Engineering Manager**, Codescalers, Jan 2023 - Present
 
 - Manage multiple engineering teams building the [ThreeFold Grid](https://threefold.io), a
   decentralized P2P cloud spanning thousands of nodes across 60+ countries.
@@ -45,14 +49,14 @@ that spans thousands of nodes across 60+ countries.
 - Run hiring, onboarding, and mentoring; set engineering standards for code review,
   testing, and release process across teams.
 
-**Software Development Team Lead** — Codescalers · 2020 – 2023
+**Software Development Team Lead**, Codescalers, Jan 2020 - Jan 2023
 
 - Led development of the Jumpscale cloud automation framework, the 3Bot virtual system
   administrator, and the Virtual Data Center (VDC) platform.
 - Drove system architecture and hands-on development while owning code quality and
   on-time delivery for the team.
 
-**Software Engineer** — Codescalers · 2016 – 2020
+**Software Engineer**, Codescalers, Jan 2016 - Jan 2020
 
 - Designed and built cloud tooling for VM lifecycle management, container orchestration,
   and infrastructure automation.
