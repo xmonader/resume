@@ -61,12 +61,13 @@ that spans thousands of nodes across 60+ countries.
 - Designed and built cloud tooling for VM lifecycle management, container orchestration,
   and infrastructure automation.
 
-**Earlier (freelance)**
+**Freelance & Contract Work**
 
-- *Otlob.com* — **Data Analyst**: built an audio-fingerprinting pipeline over large-scale
-  video datasets to measure marketing campaign reach.
-- *Orascom Telecom* — **Web Developer**: built an internal PHP/CodeIgniter application for
-  server-room environmental monitoring, replacing manual Excel workflows.
+- **Data Analyst**, Otlob.com, Jan 2018 - Mar 2018 — built an audio-fingerprinting
+  pipeline over large-scale video datasets to measure marketing campaign reach.
+- **Web Developer**, Orascom Telecom, Jan 2010 - Mar 2010 — built an internal
+  PHP/CodeIgniter application for server-room environmental monitoring, replacing manual
+  Excel workflows.
 
 ## Selected Projects
 
