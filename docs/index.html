@@ -158,17 +158,21 @@ health-checks for a libvirt-based cloud platform (Python).</li>
 highly available Kubernetes platform on the ThreeFold Grid (Go, Vue.js,
 PostgreSQL).</li>
 <li><a href="https://github.com/threefoldtech/vdc"><em>VDC</em></a>:
-Virtual Data Center: managed Kubernetes clusters, S3 storage,
-Prometheus/Grafana monitoring (Python, Stellar, Ansible), plus a
-one-click application marketplace on top of it.</li>
+Virtual Data Center with managed Kubernetes clusters, S3 storage, and
+Prometheus/Grafana monitoring (Python, Stellar, Ansible).</li>
+<li><a href="https://github.com/threefoldtech/vdc"><em>VDC
+Marketplace</em></a>: one-click application deployment marketplace built
+on top of VDC.</li>
 <li><em>AIBroker</em>: AI gateway aggregating multiple LLM providers
 with MCP server integration (Rust, Go).</li>
 <li><a href="https://github.com/threefoldtech/terraform-provider-grid"><em>Terraform
 Provider</em></a>: Infrastructure-as-Code plugin for provisioning on the
 ThreeFold Grid (Go).</li>
 <li><a href="https://github.com/threefoldtech/tfgrid-sdk-go"><em>TFRobot</em></a>:
-mass-deployment tool for large VM fleets; <a href="https://github.com/threefoldtech/tfgrid-sdk-go"><em>Gridify</em></a>:
-Heroku-like deploy tool; <a href="https://github.com/threefoldtech/tfgrid-sdk-go"><em>Farmerbot</em></a>:
+mass-deployment tool for large VM fleets (Go).</li>
+<li><a href="https://github.com/threefoldtech/tfgrid-sdk-go"><em>Gridify</em></a>:
+Heroku-like deploy tool for the ThreeFold Grid (Go).</li>
+<li><a href="https://github.com/threefoldtech/tfgrid-sdk-go"><em>Farmerbot</em></a>:
 power-management and operations automation for grid farmers (Go).</li>
 </ul>
 <p><strong>SDKs &amp; Frameworks</strong></p>
@@ -179,10 +183,10 @@ projects (Go).</li>
 <li><a href="https://github.com/threefoldtech/tfgrid-sdk-ts"><em>TypeScript
 SDK</em></a>: web developer SDK for ThreeFold Grid integration
 (TypeScript).</li>
-<li><a href="https://github.com/threefoldtech/js-ng"><em>JS-NG</em></a>
-/ <a href="https://github.com/threefoldtech/js-sdk"><em>JS-SDK</em></a>:
-cloud automation framework and Threebot application server (Python,
-Gevent).</li>
+<li><a href="https://github.com/threefoldtech/js-ng"><em>JS-NG</em></a>:
+cloud automation framework (Python, Gevent).</li>
+<li><a href="https://github.com/threefoldtech/js-sdk"><em>JS-SDK</em></a>:
+Threebot application server built on JS-NG (Python).</li>
 <li><a href="https://github.com/xmonader/ewf"><em>EWF</em></a>:
 embeddable workflow framework for resilient, stateful multi-step
 processes (Go).</li>
@@ -192,55 +196,64 @@ PostgreSQL).</li>
 <li><a href="https://github.com/crystaluniverse/publishingtools"><em>publishingtools</em></a>:
 web publishing framework for wikis, blogs, and websites (Crystal, Kemal,
 Svelte).</li>
-<li><em>AYS</em>: agentless Infrastructure-as-Code orchestration: event
-system, background tasks, and service templates.</li>
+</ul>
+<p><strong>Infrastructure Tooling</strong></p>
+<ul>
+<li><em>AYS</em>: agentless Infrastructure-as-Code orchestration with an
+event system, background tasks, and service templates.</li>
 <li><a href="https://github.com/xmonader/gofarmer"><em>Go
 farmer</em></a>: cross-platform GUI for farm management (Go, Fyne).
-Also: OAuth provider for Gogs, DMIDecode parser, GitHub-Gogs sync, and
-documentation generators for Jumpscale.</li>
+Additional: OAuth provider for Gogs, DMIDecode parser, GitHub-Gogs sync,
+and documentation generators for Jumpscale.</li>
 </ul>
 <h2 id="open-source">Open Source</h2>
+<p><strong>Networking &amp; Infrastructure</strong></p>
 <ul>
-<li><strong>Networking &amp; infrastructure</strong>: <a href="https://github.com/xmonader/tcprouter">tcprouter</a>: TCP router
-with SNI-based routing (Go) | <a href="https://github.com/threefoldtech/tfgateway">tfgateway</a>:
-ThreeFold gateway built on tcprouter and the CoreDNS Redis plugin | <a href="https://github.com/threefoldtech/coredns-redis">coredns-redis</a>:
+<li><a href="https://github.com/xmonader/tcprouter">tcprouter</a>: TCP
+router with SNI-based routing (Go).</li>
+<li><a href="https://github.com/threefoldtech/tfgateway">tfgateway</a>:
+ThreeFold gateway built on tcprouter and the CoreDNS Redis plugin.</li>
+<li><a href="https://github.com/threefoldtech/coredns-redis">coredns-redis</a>:
 Redis plugin for CoreDNS | <a href="https://github.com/xmonader/raqeeb">raqeeb</a>: PID 1 replacement
-and advanced alternative to Foreman.</li>
-<li><strong>Python libraries</strong>: <a href="https://github.com/xmonader/pygundb">pygundb</a>: GUN.js database
-server and client | <a href="https://github.com/xmonader/pyarsec">pyparsec</a>: parser
-combinator library | <a href="https://github.com/xmonader/python-sonic-client">python-sonic-client</a>:
-client for the Sonic search backend | <a href="https://github.com/xmonader/python-pcre">python-pcre</a>: PCRE
+and alternative to Foreman.</li>
+</ul>
+<p><strong>Python Libraries</strong></p>
+<ul>
+<li><a href="https://github.com/xmonader/pygundb">pygundb</a>: GUN.js
+database server and client.</li>
+<li><a href="https://github.com/xmonader/python-sonic-client">python-sonic-client</a>:
+client for the Sonic search backend.</li>
+<li><a href="https://github.com/xmonader/pyarsec">pyparsec</a>: parser
+combinator library | <a href="https://github.com/xmonader/python-pcre">python-pcre</a>: PCRE
 bindings via ctypes | <a href="https://github.com/xmonader/flask_itsyouonline">flask_itsyouonline</a>:
 OAuth2 middleware for Flask.</li>
-<li><strong>Nim ecosystem</strong>: <a href="https://github.com/xmonader/nim-servy">nim-servy</a>: web
+</ul>
+<p><strong>Nim Ecosystem</strong></p>
+<ul>
+<li><a href="https://github.com/xmonader/nim-servy">nim-servy</a>: web
 framework | <a href="https://github.com/xmonader/nim-redisclient">nim-redisclient</a>:
 Redis client and parser | <a href="https://github.com/xmonader/nimassets">nim-assets</a>: bundle
-assets into a single Nim binary.</li>
-<li><strong>Tools &amp; applications</strong>: <a href="https://github.com/xmonader/vscode-capnp">vscode-capnp</a>: Cap&#39;n
-Proto extension for VS Code | <a href="https://github.com/xmonader/helloed">helloED</a>: pluggable, fast
-PyGTK text editor | <a href="https://github.com/xmonader/stellargui">stellargui</a>:
-lightweight Stellar blockchain wallet | <a href="https://github.com/xmonader/raml2spore">raml2spore</a>: generate
-SPORE clients from RAML specifications | <a href="https://en.wikipedia.org/wiki/PIDA">Pida IDE</a>: contributed the
-RegexToolkit and Pastebin plugins.</li>
+assets into a single binary.</li>
+</ul>
+<p><strong>Tools &amp; Applications</strong></p>
+<ul>
+<li><a href="https://github.com/xmonader/vscode-capnp">vscode-capnp</a>:
+Cap&#39;n Proto extension for VS Code | <a href="https://github.com/xmonader/helloed">helloED</a>: pluggable, fast
+PyGTK text editor.</li>
+<li><a href="https://github.com/xmonader/stellargui">stellargui</a>:
+lightweight Stellar wallet | <a href="https://github.com/xmonader/raml2spore">raml2spore</a>: generate
+SPORE clients from RAML specs.</li>
+<li><a href="https://en.wikipedia.org/wiki/PIDA">Pida IDE</a>:
+contributed the RegexToolkit and Pastebin plugins.</li>
 </ul>
 <h2 id="publications-translations">Publications &amp; Translations</h2>
 <ul>
 <li><a href="https://xmonader.github.io/nimdays/"><em>Nim Days</em></a>:
 book on practical applications and libraries in Nim.</li>
-<li><dl>
-<dt><a href="http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=pythonguide:pythonguide"><em>Python:
-Extensive Guide</em></a></dt>
-<dd>
-Arabic programming guide.
-</dd>
-</dl></li>
-<li><dl>
-<dt><a href="http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=intro_ruby:intro_ruby"><em>Introduction
-to Ruby</em></a></dt>
-<dd>
-Arabic programming guide.
-</dd>
-</dl></li>
+<li><a href="http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=pythonguide:pythonguide"><em>Python:
+Extensive Guide</em></a>: Arabic programming guide.</li>
+<li><a href="http://tuxcoders.sourceforge.net/dokuwiki/doku.php?id=intro_ruby:intro_ruby"><em>Introduction
+to Ruby</em></a>: Arabic programming guide.</li>
 <li><a href="http://tuxcoders.sourceforge.net/dokuwiki/doku.php?do=index"><em>Translations</em></a>:
 PyQt4, PyGTK, Mono IronPython, and Cairo tutorials translated into
 Arabic.</li>
