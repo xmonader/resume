@@ -1,19 +1,20 @@
 ---
 documentclass: article
 classoption:
-  - 10pt
+  - 11pt
 pagestyle: empty
 geometry:
-  - top=0.45in
-  - bottom=0.45in
-  - left=0.6in
-  - right=0.6in
+  - top=0.55in
+  - bottom=0.55in
+  - left=0.7in
+  - right=0.7in
 mainfont: TeX Gyre Pagella
 header-includes: |
   \usepackage{enumitem}
-  \setlist[itemize]{label=-,topsep=2pt,itemsep=0pt,parsep=0pt,leftmargin=1.1em}
+  \setlist[itemize]{label=-,topsep=2pt,itemsep=1pt,parsep=0pt,leftmargin=1.1em}
+  \usepackage{needspace}
   \usepackage{titlesec}
-  \titlespacing{\section}{0pt}{5pt}{2pt}
+  \titlespacing{\section}{0pt}{7pt}{3pt}
   \renewcommand{\labelitemi}{-}
   \hyphenpenalty=10000
   \exhyphenpenalty=10000
@@ -48,7 +49,8 @@ Engineering leader with 10+ years building decentralized cloud infrastructure, c
 operating systems, and developer platforms: from bare-metal OS design to Kubernetes
 orchestration at scale. 6+ of those years leading engineering teams, 3+ as an engineering
 manager, currently running multiple teams on a peer-to-peer cloud spanning thousands of
-nodes across 60+ countries.
+nodes across 60+ countries. Recently building LLM infrastructure and agents: gateways,
+autonomous coding agents, and RAG systems.
 
 ## Experience
 
@@ -83,6 +85,20 @@ nodes across 60+ countries.
 
 ## Selected Projects
 
+\needspace{4\baselineskip}
+**AI & Agents**
+
+- [*llmrouter*](https://github.com/xmonader/llmrouter): OpenAI-compatible LLM gateway with prepaid billing,
+  provider routing and failover, and per-key policy (Go, PostgreSQL, Redis).
+- *Hero Agent*: autonomous agent orchestrating goals, workers, and tools; its lean coding mode
+  uses 1.7-5.3x fewer input tokens and benchmarked fastest of eight agents on open models (Rust).
+- [*Diwan*](https://github.com/xmonader/diwan): self-hosted AI staff that delivers real Word, Excel, and PowerPoint
+  files with native Arabic right-to-left, scheduled routines, approvals, and MCP connectors (Go).
+- *Hero Researcher*: RAG research and background-check engine that flags unsourced claims (Rust).
+- [*Hero SafePad*](https://github.com/xmonader/safepad): zero-knowledge encrypted editor; the key
+  lives only in the link, the server stores ciphertext (TypeScript).
+
+\needspace{4\baselineskip}
 **Operating Systems & Core Infrastructure**
 
 - [*Zero-OS*](https://github.com/threefoldtech/zos): lead development of the custom Linux-based OS
@@ -92,7 +108,8 @@ nodes across 60+ countries.
 - *OpenVCloud*: monitoring, alerting, and hardware health-checks for a libvirt-based cloud
   platform (Python).
 
-**Platforms & Developer Tools**
+\needspace{4\baselineskip}
+**Cloud Platforms**
 
 - [*KubeCloud*](https://github.com/codescalers/kubecloud): highly available Kubernetes platform on the
   ThreeFold Grid (Go, Vue.js, PostgreSQL).
@@ -100,23 +117,24 @@ nodes across 60+ countries.
   storage, and Prometheus/Grafana monitoring (Python, Stellar, Ansible).
 - [*VDC Marketplace*](https://github.com/threefoldtech/vdc): one-click application deployment marketplace
   built on top of VDC.
-- [*llmrouter*](https://github.com/xmonader/llmrouter): OpenAI-compatible LLM gateway with prepaid billing,
-  provider routing and failover, and per-key policy (Go, PostgreSQL, Redis).
-- [*Diwan*](https://github.com/xmonader/diwan): self-hosted AI staff that delivers real Word, Excel, and PowerPoint
-  files with native Arabic right-to-left, scheduled routines, approvals, and MCP connectors (Go).
-- *Hero Agent*: autonomous agent orchestrating goals, workers, and tools; its lean coding mode
-  uses 1.7-5.3x fewer input tokens and benchmarked fastest of eight agents on open models (Rust).
-- *Hero Researcher*: RAG research and background-check engine that flags unsourced claims (Rust).
-- [*Hero SafePad*](https://github.com/xmonader/safepad): zero-knowledge encrypted editor; the key
-  lives only in the link, the server stores ciphertext (TypeScript).
-- [*Terraform Provider*](https://github.com/threefoldtech/terraform-provider-grid): Infrastructure-as-Code
-  plugin for provisioning on the ThreeFold Grid (Go).
-- [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): mass-deployment tool for large VM fleets (Go).
 - [*Gridify*](https://github.com/threefoldtech/tfgrid-sdk-go): Heroku-like deploy tool for the ThreeFold
   Grid (Go).
 - [*Farmerbot*](https://github.com/threefoldtech/tfgrid-sdk-go): power-management and operations
   automation for grid farmers (Go).
 
+\needspace{4\baselineskip}
+**Infrastructure-as-Code & Automation**
+
+- [*Terraform Provider*](https://github.com/threefoldtech/terraform-provider-grid): Infrastructure-as-Code
+  plugin for provisioning on the ThreeFold Grid (Go).
+- [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): mass-deployment tool for large VM fleets (Go).
+- *AYS*: agentless Infrastructure-as-Code orchestration with an event system, background
+  tasks, and service templates.
+- [*Go farmer*](https://github.com/xmonader/gofarmer): cross-platform GUI for farm management (Go, Fyne).
+  Additional: OAuth provider for Gogs, DMIDecode parser, GitHub-Gogs sync, and
+  documentation generators for Jumpscale.
+
+\needspace{4\baselineskip}
 **SDKs & Frameworks**
 
 - [*Go SDK*](https://github.com/threefoldtech/tfgrid-sdk-go): primary SDK enabling delivery of multiple
@@ -125,24 +143,15 @@ nodes across 60+ countries.
   integration (TypeScript).
 - [*JS-NG*](https://github.com/threefoldtech/js-ng): cloud automation framework (Python, Gevent).
 - [*JS-SDK*](https://github.com/threefoldtech/js-sdk): Threebot application server built on JS-NG (Python).
-- [*EWF*](https://github.com/xmonader/ewf): embeddable workflow framework for resilient, stateful
-  multi-step processes (Go).
 - [*CRM*](https://github.com/Incubaid/crm/): CRM system for the ThreeFold Token Foundation (Python, Flask,
   GraphQL, PostgreSQL).
 - [*publishingtools*](https://github.com/crystaluniverse/publishingtools): web publishing framework for
   wikis, blogs, and websites (Crystal, Kemal, Svelte).
 
-**Infrastructure Tooling**
-
-- *AYS*: agentless Infrastructure-as-Code orchestration with an event system, background
-  tasks, and service templates.
-- [*Go farmer*](https://github.com/xmonader/gofarmer): cross-platform GUI for farm management (Go, Fyne).
-  Additional: OAuth provider for Gogs, DMIDecode parser, GitHub-Gogs sync, and
-  documentation generators for Jumpscale.
-
 ## Open Source
 
-**Networking & Infrastructure**
+\needspace{4\baselineskip}
+**Virtualization & Storage**
 
 - [uvm](https://github.com/xmonader/uvm): runs OCI images as KVM microVMs with a Docker-like CLI, compose,
   and a JSON-RPC daemon (Go).
@@ -152,12 +161,17 @@ nodes across 60+ countries.
   and capability tokens instead of presigned URLs (Go).
 - [ewf](https://github.com/xmonader/ewf): embeddable workflow engine with persisted state, crash
   resumption, retries, and queue-based execution (Go).
+
+\needspace{4\baselineskip}
+**Networking**
+
 - [tcprouter](https://github.com/xmonader/tcprouter): TCP router with SNI-based routing (Go).
 - [tfgateway](https://github.com/threefoldtech/tfgateway): ThreeFold gateway built on tcprouter and the
   CoreDNS Redis plugin.
 - [coredns-redis](https://github.com/threefoldtech/coredns-redis): Redis plugin for CoreDNS;
   [raqeeb](https://github.com/xmonader/raqeeb): PID 1 replacement and alternative to Foreman.
 
+\needspace{4\baselineskip}
 **Python Libraries**
 
 - [pygundb](https://github.com/xmonader/pygundb): GUN.js database server and client.
@@ -166,15 +180,17 @@ nodes across 60+ countries.
   [python-pcre](https://github.com/xmonader/python-pcre): PCRE bindings via ctypes;
   [flask_itsyouonline](https://github.com/xmonader/flask_itsyouonline): OAuth2 middleware for Flask.
 
+\needspace{4\baselineskip}
 **Nim Ecosystem**
 
 - [nim-servy](https://github.com/xmonader/nim-servy): async web framework; [nim-redisclient](https://github.com/xmonader/nim-redisclient):
   Redis client and parser; [nim-assets](https://github.com/xmonader/nimassets): bundle assets into a
   single binary.
 
+\needspace{4\baselineskip}
 **Tools & Applications**
 
-- [SafeBrowser](https://github.com/xmonader/safebrowser): remote browser isolation streaming headless Chrome
+- SafeBrowser: remote browser isolation streaming headless Chrome
   over CDP, with audio, mobile touch, and SSRF protection (TypeScript, Go).
 - [vscode-capnp](https://github.com/xmonader/vscode-capnp): Cap'n Proto extension for VS Code;
   [helloED](https://github.com/xmonader/helloed): pluggable, fast PyGTK text editor.
@@ -200,7 +216,8 @@ nodes across 60+ countries.
   delivery ownership, architecture review.
 - **Languages**: Go (Golang), Python, Rust, TypeScript, C, Nim, Crystal, Bash.
 - **Infrastructure**: Linux, Kubernetes, K3s, Helm, Terraform/OpenTofu, Ansible, Docker,
-  Prometheus, Grafana, CoreDNS, Nginx, Traefik.
+  Prometheus, Grafana, CoreDNS, Nginx, Traefik, KVM, Cloud Hypervisor, microVMs.
+- **AI/LLM**: agents, RAG, MCP, LLM gateways and routing.
 - **Data**: PostgreSQL, Redis, MySQL, MongoDB, InfluxDB.
 - **APIs & protocols**: REST, GraphQL, gRPC, Cap'n Proto.
 - **Frontend**: Vue, Svelte, React.
