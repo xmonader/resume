@@ -4,16 +4,16 @@ classoption:
   - 10pt
 pagestyle: empty
 geometry:
-  - top=0.55in
-  - bottom=0.55in
-  - left=0.7in
-  - right=0.7in
+  - top=0.45in
+  - bottom=0.45in
+  - left=0.6in
+  - right=0.6in
 mainfont: TeX Gyre Pagella
 header-includes: |
   \usepackage{enumitem}
-  \setlist[itemize]{label=-,topsep=2pt,itemsep=1pt,parsep=0pt,leftmargin=1.1em}
+  \setlist[itemize]{label=-,topsep=2pt,itemsep=0pt,parsep=0pt,leftmargin=1.1em}
   \usepackage{titlesec}
-  \titlespacing{\section}{0pt}{7pt}{3pt}
+  \titlespacing{\section}{0pt}{5pt}{2pt}
   \renewcommand{\labelitemi}{-}
   \hyphenpenalty=10000
   \exhyphenpenalty=10000
@@ -58,8 +58,8 @@ nodes across 60+ countries.
   decentralized P2P cloud spanning thousands of nodes across 60+ countries.
 - Own technical strategy, architecture, roadmap, and delivery across the full stack: a
   custom Linux-based OS, multi-language SDKs, a Terraform provider, and web dashboards.
-- Run hiring, onboarding, and mentoring; set engineering standards for code review,
-  testing, and release process across teams.
+- Run hiring, onboarding, and mentoring; set code review, testing, and CI/CD standards
+  (GitHub Actions, Forgejo).
 
 **Software Development Team Lead**, Codescalers, Jan 2020 - Jan 2023
 
@@ -100,8 +100,15 @@ nodes across 60+ countries.
   storage, and Prometheus/Grafana monitoring (Python, Stellar, Ansible).
 - [*VDC Marketplace*](https://github.com/threefoldtech/vdc): one-click application deployment marketplace
   built on top of VDC.
-- *AIBroker*: AI gateway aggregating multiple LLM providers with MCP server integration
-  (Rust, Go).
+- [*llmrouter*](https://github.com/xmonader/llmrouter): OpenAI-compatible LLM gateway with prepaid billing,
+  provider routing and failover, and per-key policy (Go, PostgreSQL, Redis).
+- [*Diwan*](https://github.com/xmonader/diwan): self-hosted AI staff that delivers real Word, Excel, and PowerPoint
+  files with native Arabic right-to-left, scheduled routines, approvals, and MCP connectors (Go).
+- *Hero Agent*: autonomous agent orchestrating goals, workers, and tools; its lean coding mode
+  uses 1.7-5.3x fewer input tokens and benchmarked fastest of eight agents on open models (Rust).
+- *Hero Researcher*: RAG research and background-check engine that flags unsourced claims (Rust).
+- [*Hero SafePad*](https://github.com/xmonader/safepad): zero-knowledge encrypted editor; the key
+  lives only in the link, the server stores ciphertext (TypeScript).
 - [*Terraform Provider*](https://github.com/threefoldtech/terraform-provider-grid): Infrastructure-as-Code
   plugin for provisioning on the ThreeFold Grid (Go).
 - [*TFRobot*](https://github.com/threefoldtech/tfgrid-sdk-go): mass-deployment tool for large VM fleets (Go).
@@ -137,6 +144,14 @@ nodes across 60+ countries.
 
 **Networking & Infrastructure**
 
+- [uvm](https://github.com/xmonader/uvm): runs OCI images as KVM microVMs with a Docker-like CLI, compose,
+  and a JSON-RPC daemon (Go).
+- [chvm](https://github.com/xmonader/chvm): Docker-like CLI running OCI images as microVMs on Cloud Hypervisor,
+  with virtiofs volumes, vsock exec, and TAP/Mycelium networking (Rust).
+- *castor*: content-addressed, commit-based object store; atomic tree commits, FastCDC/BLAKE3 dedup,
+  and capability tokens instead of presigned URLs (Go).
+- [ewf](https://github.com/xmonader/ewf): embeddable workflow engine with persisted state, crash
+  resumption, retries, and queue-based execution (Go).
 - [tcprouter](https://github.com/xmonader/tcprouter): TCP router with SNI-based routing (Go).
 - [tfgateway](https://github.com/threefoldtech/tfgateway): ThreeFold gateway built on tcprouter and the
   CoreDNS Redis plugin.
@@ -153,18 +168,20 @@ nodes across 60+ countries.
 
 **Nim Ecosystem**
 
-- [nim-servy](https://github.com/xmonader/nim-servy): web framework; [nim-redisclient](https://github.com/xmonader/nim-redisclient):
+- [nim-servy](https://github.com/xmonader/nim-servy): async web framework; [nim-redisclient](https://github.com/xmonader/nim-redisclient):
   Redis client and parser; [nim-assets](https://github.com/xmonader/nimassets): bundle assets into a
   single binary.
 
 **Tools & Applications**
 
+- [SafeBrowser](https://github.com/xmonader/safebrowser): remote browser isolation streaming headless Chrome
+  over CDP, with audio, mobile touch, and SSRF protection (TypeScript, Go).
 - [vscode-capnp](https://github.com/xmonader/vscode-capnp): Cap'n Proto extension for VS Code;
   [helloED](https://github.com/xmonader/helloed): pluggable, fast PyGTK text editor.
 - [stellargui](https://github.com/xmonader/stellargui): lightweight Stellar wallet;
   [raml2spore](https://github.com/xmonader/raml2spore): generate SPORE clients from RAML specs.
-- [Pida IDE](https://en.wikipedia.org/wiki/PIDA): contributed the RegexToolkit and
-  Pastebin plugins.
+- *murag*: offline RAG over personal notes with cited answers (Python);
+  [Pida IDE](https://en.wikipedia.org/wiki/PIDA): RegexToolkit and Pastebin plugins.
 
 ## Publications & Translations
 
